@@ -1,14 +1,14 @@
 def los(a):
-    CharSet = set() # declaring a set 
+    S = set() # declaring a set 
     l = 0           #
     res = 0
     for r in range(len(a)):
-        while a[r] in CharSet:
-            CharSet.remove(a[l])
+        while a[r] in S:
+            S.remove(a[l])
             l+=1
-        CharSet.add(a[r])
-        if len(CharSet) > res:
-            res = len(CharSet)
+        S.add(a[r])
+        if len(S) > re  s:
+            res = len(S)
     return res        
 
 a = "abcabcbb"
