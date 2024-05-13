@@ -7,7 +7,7 @@ def check(a):
             if(i>1 and a[i-2] >= a[i]):
                 a[i] = a[i-1]
         i+=1
-    if(c>2):
+    if(c<2):
         return True
     else:
         return False                          
